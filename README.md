@@ -9,7 +9,15 @@ Skill Auditor is an AI agent skill for evaluating whether another skill improves
 
 ## Use
 
-Install or copy this repository as a skill named `skill-auditor` in your agent's skills directory, following your agent's installation instructions. Then ask your assistant:
+Install with the [skills CLI](https://github.com/vercel-labs/skills) (requires Node.js 22.20 or later):
+
+```bash
+npx skills add chals1029/skill-auditor
+```
+
+Choose your agent when prompted. Installation is project-local by default; add `-g` for a global install. For OMP, which is not listed as an installer target, copy `SKILL.md` into `~/.omp/agent/skills/skill-auditor/` instead.
+
+Then ask your assistant:
 
 > Use Skill Auditor to evaluate my Visual QA skill.
 
